@@ -3,6 +3,7 @@ import requests, json
 import time
 from datetime import datetime
 
+app = Flask(__name__)
 
 @app.route("/")
 def index():
@@ -85,6 +86,7 @@ def sendIndoorData():
     #check this data table for the oldest entry for the serialNumber. If it's older than 24hrs drop
     sensorData = deleteOlderDataEntries(deviceSerialNumber)
     return "Done"
+
 
 @app.route("/api/activate", methods=["PUT"])
 def activateDevice():
