@@ -1,0 +1,12 @@
+{
+    "errorCode": -1, 
+    "aio_username": "my_adafruit_io_username", 
+    "errorMessage": "", 
+    "test": "test", 
+    "AP_PASSWORD": "12345678", 
+    "serial_number": "1000000007", 
+    "AP_SSID": "myAQI", 
+    "aio_key": "my_adafruit_io_key", 
+    "ssid": "", "password": "", 
+    "timezone": "America/New_York"
+}
